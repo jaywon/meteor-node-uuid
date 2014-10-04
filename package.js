@@ -1,6 +1,6 @@
 Package.describe({
   name: "jaywon:meteor-node-uuid",
-  summary: "node-uuid npm package wrapper for generating RFC compliant UUIDs.",
+  summary: "Generate RFC compliant UUIDs using node-uuid.",
   version: "1.0.0",
   git: "https://github.com/jaywon/meteor-node-uuid"
 });
