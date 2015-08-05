@@ -1,1 +1,3 @@
 .build*
+/client.browserify.js.cached
+*.browserify.js.map

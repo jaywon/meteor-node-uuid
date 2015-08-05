@@ -5,12 +5,14 @@ Package.describe({
   git: "https://github.com/jaywon/meteor-node-uuid"
 });
 
-Package.onUse(function(api) {
-  api.versionsFrom('0.9.0');
-  
-  var path = Npm.require('path');
-  var asset_path = path.join('node-uuid');
+Npm.depends({
+  'uuid': '2.0.1'
+});
 
-  api.addFiles(path.join(asset_path, 'uuid.js'), 'client');
-  api.addFiles(path.join(asset_path, 'uuid.js'), 'server');
+
+Package.onUse(function(api) {
+    api.versionsFrom('1.0');
+    api.use('cosmos:browserify@0.5.0', 'client');
+    api.addFiles('client.browserify.js');
+    api.export('uuid');
 });
