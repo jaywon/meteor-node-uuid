@@ -1,8 +1,8 @@
 Package.describe({
   name: "mdj:meteor-node-uuid",
-  summary: "Generate RFC compliant UUIDs using node-uuid.",
-  version: "1.0.0",
-  git: "https://github.com/jaywon/meteor-node-uuid"
+  summary: "Proxy package for node-uuid, Generate RFC compliant UUIDs using node-uuid.",
+  version: "1.0.1",
+  git: "https://github.com/marcodejongh/meteor-node-uuid"
 });
 
 Npm.depends({
