@@ -1,7 +1,7 @@
 Package.describe({
-  name: "jaywon:meteor-node-uuid",
+  name: "mdj:meteor-node-uuid",
   summary: "Generate RFC compliant UUIDs using node-uuid.",
-  version: "1.0.1",
+  version: "1.0.0",
   git: "https://github.com/jaywon/meteor-node-uuid"
 });
 
